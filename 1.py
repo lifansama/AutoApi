@@ -13,11 +13,9 @@ id=r'2157c0ae-6576-48c8-b2b7-7a7b3c469b0f'
 secret=r'lm4OwDRv[vK0[/5wPtB.18sFSZiT6zQj'                        
 ###################################################################
 
-path=sys.path[0]+r'/1.txt'
 num1 = 0
-fo = open(path, "r+")
-refresh_token = fo.read()
-fo.close()
+
+refresh_token = 'OAQABAAAAAABeAFzDwllzTYGDLh_qYbH83fvnsI-ORHE_iZ0edRocSTR3QyrgRg_H0dqgxVlr3Rq2XtYnA5wNLVgvUzwAlI4UZjDI9Yg4oo4jaaFq-1W5DFe0xh-wOD49LQ1D0bbk2iihaGyZFTldsP4WYq4EBBYPnjSK9_CMTR8w-XiE-g76_Ewt1UgOiSE4crr8wM8OSv0oEA2BTk0HDeuzR7Uthw5hhi7BVQhVquYvRPIYxPtUGyqPtyYA_r5YCC8FH1F02j6sO34IGLP9kyPmwW2utf3RA22PCtS7o2Z4eq_7oqHIptrm8poIs3_xDtZq2kjc81rcNDIHsf2b5-y7eV-CiIeIqVjUl1iBjxHpGntH-cB5hIEkn5VtLICsxhXbDxBNAYb15VMq1sei3RMYrocX3z6LsXvuMwpKdP_Yt_TFE105A-wnPkOIKpKKp80TQzLW4R3pOLJnDbqJbj5r5hgt_J5TlfYsKf8A_ffcN7q_IVdRPO5APMdzyyTXMFnhaS3tRlOsCcosFQ8czrjP1kqxm0dsx9E53qIRkLj1BIl7PUKW8I8o9Oo_90K--RZnMgKDjkfuBSCO3DEwt6tMiqaIytWyi6fRjT8YQVPdcNv7ufQY6LdtfnIDVWXcs7U7JmF1a9NvuwAvuuGtP6MJkjHaY9g38Bntr5KVD7VP5hQbdEmIHVxtvg04oi6ZSLvs2sPMkzUTz1eUduxyw1P19NQVJX6DTg2lp_B87j01X-YKke4reAXTK-jkGzhd81UMM77TMEOJYWn5f_V2cfLV6Nmfepqfu5-rny9-EX8mg9NfavQTmvx2K63C0vCp0Rv6N-C_ecYgAA'
 # print(refresh_token)
 def gettoken(refresh_token):
     headers={'Content-Type':'application/x-www-form-urlencoded'
