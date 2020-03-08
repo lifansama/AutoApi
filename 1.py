@@ -16,9 +16,7 @@ secret=r'E=-Tj0_J0nNNT9W6=lkWk22j-@/Lcz=O'
 
 path=sys.path[0]+r'/1.txt'
 num1 = 0
-fo = open(path, "r+")
-refresh_token = fo.read()
-fo.close()
+
 def gettoken(refresh_token):
     headers={'Content-Type':'application/x-www-form-urlencoded'
             }
@@ -36,6 +34,9 @@ def gettoken(refresh_token):
         f.write(refresh_token)
     return access_token
 def main():
+    fo = open(path, "r+")
+    refresh_token = fo.read()
+    fo.close()
     global num1
     access_token=gettoken(refresh_token)
     headers={
