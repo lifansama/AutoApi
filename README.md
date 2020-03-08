@@ -22,21 +22,21 @@
 
 * 登陆/新建github账号，回到本项目页面，点击右上角fork本项目的代码到到你自己的仓库，
 
-  ![image](https://github.com/wangziyingwen/AutoApi/blob/master/images/fork.png)
+  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/fork.png)
   
 * 根据原文教程修改你自己项目里的1.py，1.txt。（现在里面的数据是我的）
   
 * 进入你的个人设置页面( 右上角头像 Settings，不是仓库里的 Settings )，选择 Developer settings > Personal access tokens > Generate new token,
-  ![image](https://github.com/wangziyingwen/AutoApi/blob/master/images/Settings.png)
-  ![image](https://github.com/wangziyingwen/AutoApi/blob/master/images/token.png)
+  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/Settings.png)
+  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/token.png)
 
   设置名字为GITHUB_TOKEN , 然后勾选 repo , admin:repo_hook , workflow 等选项，最后点击Generate token即可。
-  ![image](https://github.com/wangziyingwen/AutoApi/blob/master/images/repo.png)
-  ![image](https://github.com/wangziyingwen/AutoApi/blob/master/images/adminrepo.png)
-  ![image](https://github.com/wangziyingwen/AutoApi/blob/master/images/workflow.png)
+  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/repo.png)
+  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/adminrepo.png)
+  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/workflow.png)
 
 * 点击右上角星星/star立马调用一次，再点击上面的Action就能看到每次的运行日志（都看下，api有没有调用到位，有没有出错）
-  ![image](https://github.com/wangziyingwen/Autoapi/blob/master/images/日志.png)
+  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/日志.png)
 
 * 没出错的话，就搞定啦，接下来就不用管了。（下面看不懂就不用管啦）
 
@@ -44,11 +44,11 @@
 
   · 定时自动启动修改地方：（在.github/workflow/autoapi.yml文件里，自行百度cron定时任务格式）
    
-  ![image](https://github.com/wangziyingwen/AutoApi/blob/master/images/定时.png)
+  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/定时.png)
    
   · 每次轮数修改地方：（在1.py最后面）
    
-  ![image](https://github.com/wangziyingwen/AutoApi/blob/master/images/次数.png)
+  ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/次数.png)
    
 ------------------------------------------------------------
 ### 题外话 ###
