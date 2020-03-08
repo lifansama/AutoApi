@@ -7,6 +7,14 @@
 * 原教程博主-黑幕（酷安id-Paran）：https://blog.432100.xyz/index.php/archives/50/
 * 普通版地址：https://github.com/wangziyingwen/AutoApi
 * 加密版地址：https://github.com/wangziyingwen/AutoApiSecret
+
+### 区别 ###
+项目用的是公共仓库（开放代码），所有人都能看到你的代码内容。
+
+所以你的应用id、机密、令牌都会显示出来，不安全。
+
+加密版，我把应用id、机密都隐藏了，令牌因为需要实时更新，隐藏不了（我不会！），安全性会高很多！
+
 --------------------------------------------------------------
 
 ### 步骤 ###
