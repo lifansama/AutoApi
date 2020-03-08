@@ -8,13 +8,15 @@ import json,sys,time
 #注册后一定要再点代表xxx授予管理员同意,否则outlook api无法调用
 
 ###################################################################
-#在下方单引号内填入应用id                                         #
+#把下方单引号内的内容改为你的应用id                                         #
 id=r'1350ba69-e913-4181-b0f3-7129770a35df'                         
-#在下方单引号内填入应用秘钥                                       #
+#把下方单引号内的内容改为你的应用机密                                       #
 secret=r'E=-Tj0_J0nNNT9W6=lkWk22j-@/Lcz=O'                                           
 ###################################################################
 
+
 path=sys.path[0]+r'/1.txt'
+path2=sys.path[0]+r'/time.log'
 num1 = 0
 
 def gettoken(refresh_token):
@@ -36,8 +38,12 @@ def gettoken(refresh_token):
 def main():
     fo = open(path, "r+")
     refresh_token = fo.read()
-    fo.close()
+    fo.close() 
+    fv = open(path2, "r+")
+    timelog = fv.read()
+    fv.close()
     global num1
+    localtime = time.asctime( time.localtime(time.time()) )
     access_token=gettoken(refresh_token)
     headers={
     'Authorization':access_token,
@@ -77,6 +83,7 @@ def main():
         if req.get(r'https://graph.microsoft.com/v1.0/me/outlook/masterCategories',headers=headers).status_code == 200:
             num1+=1
             print('10调用成功'+str(num1)+'次')
+            print('此次运行时间为 : '+localtime)
     except:
         print("pass")
         pass
