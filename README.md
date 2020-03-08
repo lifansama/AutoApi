@@ -26,7 +26,7 @@
   
 * 根据原文教程修改你自己项目里的1.py，1.txt。（现在里面的数据是我的）
   
-* 进入你在个人设置页面( 右上角头像 Settings，不是仓库里的 Settings )，选择 Developer settings > Personal access tokens > Generate new token,
+* 进入你的个人设置页面( 右上角头像 Settings，不是仓库里的 Settings )，选择 Developer settings > Personal access tokens > Generate new token,
   ![image](https://github.com/wangziyingwen/AutoApi/blob/master/images/Settings.png)
   ![image](https://github.com/wangziyingwen/AutoApi/blob/master/images/token.png)
 
