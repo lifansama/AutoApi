@@ -7,6 +7,7 @@
 * 原教程博主-黑幕（酷安id-Paran）：https://blog.432100.xyz/index.php/archives/50/
 * 普通版地址：https://github.com/wangziyingwen/AutoApi
 * 加密版地址：https://github.com/wangziyingwen/AutoApiSecret
+* 更新日志/旧版：https://github.com/wangziyingwen/Autoapi-test
 
 ### 区别 ###
 项目用的是公共仓库（开放代码），所有人都能看到你的代码内容。
