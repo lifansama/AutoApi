@@ -19,7 +19,6 @@ num1 = 0
 fo = open(path, "r+")
 refresh_token = fo.read()
 fo.close()
-# print(refresh_token)
 def gettoken(refresh_token):
     headers={'Content-Type':'application/x-www-form-urlencoded'
             }
@@ -50,7 +49,7 @@ def main():
         if req.get(r'https://graph.microsoft.com/v1.0/me/drive',headers=headers).status_code == 200:
             num1+=1
             print("2调用成功"+str(num1)+'次')
-        if req.get(r'https://graph.microsoft.com/v1.0/drive/root: ',headers=headers).status_code == 200:
+        if req.get(r'https://graph.microsoft.com/v1.0/drive/root',headers=headers).status_code == 200:
             num1+=1
             print('3调用成功'+str(num1)+'次')
         if req.get(r'https://graph.microsoft.com/v1.0/users ',headers=headers).status_code == 200:
