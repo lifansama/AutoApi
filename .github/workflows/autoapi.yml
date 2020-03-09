@@ -29,14 +29,15 @@ jobs:
       run: |
         pip install requests
     - name: Test Api #Api调用
-      run: |    
-        python 1.py
-        echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.log
-           
-    - name: commit #重新上传新token
       run: |
-        git config --global user.email wz.lxh@outlook.com
-        git config --global user.name wangziyingwen
+        echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.log
+        python 1.py
+        
+           
+    - name: commit #上传新的refresh_token
+      run: |
+        git config --global user.email AutoupdateRobot@email.com
+        git config --global user.name AutoupdateRobot
         git add .
         git commit -m "update new token" -a
     - name: Push changes
