@@ -29,7 +29,7 @@
   
 * 根据原文教程修改你自己项目里的1.py，1.txt。（现在里面的数据是我的）
   
-  （两种方法：在线修改（推荐）。或者下载下来修改，删掉项目里的1.py、1.txt，再把修改好的上传上去）
+  （两种方法：在线修改（推荐）。或者把项目下载下来修改，删掉项目里的1.py、1.txt，再把修改好的上传上去）
   
 * 进入你的个人设置页面( 右上角头像 Settings，不是仓库里的 Settings )，选择 Developer settings > Personal access tokens > Generate new token,
 
