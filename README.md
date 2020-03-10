@@ -27,7 +27,7 @@
 
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/fork.png)
   
-* 根据原文教程修改你自己项目里的1.py，1.txt。（现在里面的数据是我的）
+* 根据[原教程](https://blog.432100.xyz/index.php/archives/50/)修改你自己项目里的1.py，1.txt。（现在里面的数据是我的）
   
   （两种方法：在线修改（推荐）。或者把项目下载下来修改，删掉项目里的1.py、1.txt，再把修改好的上传上去）
   
