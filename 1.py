@@ -6,7 +6,6 @@ import json,sys,time
 #user:	User.Read.All、User.ReadWrite.All、Directory.Read.All、Directory.ReadWrite.All
 #mail:  Mail.Read、Mail.ReadWrite、MailboxSettings.Read、MailboxSettings.ReadWrite
 #注册后一定要再点代表xxx授予管理员同意,否则outlook api无法调用
-
 ###################################################################
 #把下方单引号内的内容改为你的应用id                                         #
 id=r'1350ba69-e913-4181-b0f3-7129770a35df'                         
