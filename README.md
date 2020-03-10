@@ -28,11 +28,19 @@
 
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/fork.png)
   
-* 根据[原教程](https://blog.432100.xyz/index.php/archives/50/)获取应用id、机密、refresh_token，并按原教程修改你自己项目里的1.py，1.txt。（现在里面的数据是我的）
+* 根据[原教程](https://blog.432100.xyz/index.php/archives/50/)获取应用id、机密、refresh_token，并修改你自己项目里的1.py，1.txt。
   
   （两种方法：在线修改（推荐）。或者把项目下载下来修改，删掉项目里的1.py、1.txt，再把修改好的上传上去）
   
+     * 1.py 修改地方：（单引号不要动，只需改文字）
+     
+     ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/py修改.png)
+     
+     * 1.txt 则是将整个refresh_token复制粘贴进去。
+  
      > 1.txt内容的应该是开头OAQ....AA结尾（目前我看到的都是这种格式） ，结尾不要留空格或者空行
+     
+     ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/token地方.png)
   
 * 进入你的个人设置页面( 右上角头像 Settings，不是仓库里的 Settings )，选择 Developer settings > Personal access tokens > Generate new token,
 
