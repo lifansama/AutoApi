@@ -22,13 +22,13 @@
 --------------------------------------------------------------
 
 ### 步骤 ###
-* 先大致浏览[原教程](https://blog.432100.xyz/index.php/archives/50/)，或者根据原教程操作一遍，以方便接下来的操作。
+* 第一步，先大致浏览[原教程](https://blog.432100.xyz/index.php/archives/50/)，或者根据原教程操作一遍，以方便接下来的操作。
 
-* 登陆/新建github账号，回到本项目页面，点击右上角fork本项目的代码到你自己的帐号，然后你账号会出现一个一模一样的项目，接下来的操作均在你的这个项目下进行。
+* 第二步，登陆/新建github账号，回到本项目页面，点击右上角fork本项目的代码到你自己的帐号，然后你账号会出现一个一模一样的项目，接下来的操作均在你的这个项目下进行。
 
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/fork.png)
   
-* 根据[原教程](https://blog.432100.xyz/index.php/archives/50/)获取应用id、机密、refresh_token，并修改你自己项目里的1.py，1.txt。
+* 第三步，根据[原教程](https://blog.432100.xyz/index.php/archives/50/)获取应用id、机密、refresh_token，并修改你自己项目里的1.py，1.txt。
   
   （两种方法：在线修改（推荐）。或者把项目下载下来修改，删掉项目里的1.py、1.txt，再把修改好的上传上去）
   
@@ -42,7 +42,7 @@
      
      ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/token地方.png)
   
-* 进入你的个人设置页面( 右上角头像 Settings，不是仓库里的 Settings )，选择 Developer settings > Personal access tokens > Generate new token,
+* 第四步，进入你的个人设置页面( 右上角头像 Settings，不是仓库里的 Settings )，选择 Developer settings > Personal access tokens > Generate new token,
 
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/Settings.png)
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/token.png)
@@ -53,13 +53,13 @@
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/adminrepo.png)
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/workflow.png)
 
-* 点击右上角星星/star立马调用一次，再点击上面的Action就能看到每次的运行日志，看看运行状况
+* 第五步，点击右上角星星/star立马调用一次，再点击上面的Action就能看到每次的运行日志，看看运行状况
 
  （必需点进去Test Api看下，api有没有调用到位，有没有出错。外面的Auto Api打勾只能说明运行是正常的，我们还需要确认10个api调用成功了，就像图里的一样。如果少了几个api，就是注册应用的时候赋予api权限没弄好）
 
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/日志.png)
 
-* 没出错的话，就搞定啦！！再看看下面的定时次数要不要修改，不打算改就不用管了。
+* 第六步，没出错的话，就搞定啦！！再看看下面的定时次数要不要修改，不打算改就不用管了。
 
   我设定的每6小时自动运行一次，每次调用3轮（点击右上角星星/star也可以立马调用一次），你们自行斟酌修改（我也不知道活跃要调用多少、多久）：
 
