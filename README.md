@@ -35,7 +35,7 @@
 
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/fork.png)
   
-* 第三步，根据[原教程](https://blog.432100.xyz/index.php/archives/50/)获取应用id、机密、refresh_token（自己复制保存）
+* 第三步，根据[原教程](https://blog.432100.xyz/index.php/archives/50/)获取应用id、机密、refresh_token（自己复制保存，注意区分id机密，别弄混了）
      
      然后在线编辑你项目里的1.py、1.txt：
      * 1.py 修改地方：（单引号不要动，只需改文字）
