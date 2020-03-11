@@ -44,7 +44,7 @@
      
      * 1.txt 则是将整个refresh_token复制粘贴进去。
   
-     > > refresh_token位置如图下。复制refresh_token紧接着的双引号里的内容（红竖线框起来的），不要把双引号复制进去。复制进1.txt后，留意结尾不要留空格或者空行
+     > refresh_token位置如图下。复制refresh_token紧接着的双引号里的内容（红竖线框起来的），不要把双引号复制进去。复制进1.txt后，留意结尾不要留空格或者空行
      
      ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/token地方.png)
   
